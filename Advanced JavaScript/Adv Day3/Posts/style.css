@@ -1,0 +1,41 @@
+.error {
+  display: none;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgb(69, 79, 228);
+  color: white;
+  border: none;
+}
+
+.loader {
+  margin: auto;
+  color: rgb(96, 123, 199);
+}
+
+.containerStyle {
+  margin: auto;
+  margin-top: 15px;
+  background-color: rgb(115, 91, 247);
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
