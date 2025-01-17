@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormValidation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="userForm">
+        <label>
+          Name:
+          <input type="text" id="name" />
+        </label>
+        <div id="nameError" class="error-message"></div>
+
+        <label>
+          Age:
+          <input type="text" id="age" />
+        </label>
+        <div id="ageError" class="error-message"></div>
+
+        <label>
+          Email:
+          <input type="email" id="email" />
+        </label>
+        <div id="emailError" class="error-message"></div>
+
+        <div class="button-container">
+          <button type="button" class="add-btn" id="addButton">Add</button>
+          <button type="button" class="reset-btn" id="resetButton">
+            Reset
+          </button>
+        </div>
+      </form>
+
+      <table class="hidden" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="userTableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
