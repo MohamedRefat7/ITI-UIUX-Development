@@ -1,0 +1,24 @@
+<!ELEMENT library (librarian*, book+)>
+<!ELEMENT librarian EMPTY>
+<!ELEMENT book (preface?, parts+)>
+<!ELEMENT preface EMPTY>
+<!ELEMENT parts (chapter+)>
+<!ELEMENT chapter (summary, section+)>
+<!ELEMENT summary EMPTY>
+<!ELEMENT section (content)>
+
+
+
+<!ATTLIST library location CDATA #REQUIRED>
+<!ATTLIST library description CDATA #REQUIRED>
+<!ATTLIST librarian id CDATA #REQUIRED>
+<!ATTLIST librarian name CDATA #REQUIRED>
+<!ATTLIST librarian age CDATA #REQUIRED>
+<!ATTLIST book title CDATA #REQUIRED>
+<!ATTLIST book ISBN CDATA #REQUIRED>
+<!ATTLIST book author CDATA #REQUIRED>
+<!ATTLIST preface introduction CDATA #REQUIRED>
+<!ATTLIST parts title CDATA #REQUIRED>
+<!ATTLIST chapter title CDATA #REQUIRED>
+<!ATTLIST summary CDATA #REQUIRED>
+<!ATTLIST content CDATA #REQUIRED>

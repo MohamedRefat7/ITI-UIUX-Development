@@ -1,0 +1,4 @@
+<!DOCTYPE weekday SYSTEM "weekday.xsd">
+<weekday>1</weekday> 
+<weekday>saturday</weekday> 
+<weekday>5</weekday>

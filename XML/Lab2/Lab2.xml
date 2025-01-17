@@ -1,0 +1,16 @@
+<bookStore> 
+    <book> 
+        <title>Java</title> 
+        <author>ahmed</author> 
+        <ISBN>123</ISBN> 
+        <Date>2022</Date>
+        <publisher>ahmed</publisher>
+    </book> 
+    <book> 
+        <title>C++</title> 
+        <author>Harverd</author> 
+        <ISBN>777</ISBN> 
+        <Date>2035</Date>
+        <publisher>mohamed</publisher>
+    </book> 
+</bookStore>

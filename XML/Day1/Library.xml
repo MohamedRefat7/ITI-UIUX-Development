@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "Library.dtd">
+    <library location="21, alexandria , egypt" description="this is a library">
+        <librarian id="1" name="ahmed" age="22"></librarian>        
+            <book title="Java" ISBN="123" author="Bishoy">
+            
+              <preface introduction="Java is a programming language"></preface>
+              <parts title="part1">
+                <chapter title="chapter1">
+                    <summary>Java is a programming language</summary>
+                    <section>
+                         <content><![CDATA[
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut quibusdam distinctio dignissimos similique. Quasi ducimus soluta ad aspernatur omnis!
+                                </p>
+                                    ]]>
+                         </content>
+                    </setion>
+
+                </chapter>
+              </parts>
+              <parts title="part2">
+                 <chapter title="chapter2">
+                    <summary>C++ is a programming language</summary>
+                    <section>
+                        <![CDATA[
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut quibusdam distinctio dignissimos similique. Quasi ducimus soluta ad aspernatur omnis!
+                        </p>
+                        ]]>
+                    </setion>
+
+                 </chapter>
+              </parts>
+            
+            </book>
+            <book title="C++" ISBN="456" author="Mohamed">
+                <preface introduction="C++ is a programming language"></preface>
+                <parts title="part1">
+                    <chapter title="chapter1">
+                        <summary>Java is a programming language</summary>
+                        <section>
+                          <content>   <![CDATA[
+                            <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut quibusdam distinctio dignissimos similique. Quasi ducimus soluta ad aspernatur omnis!
+                            </p>
+                            ]]>
+                          </content>  
+                        </setion>
+
+                    </chapter>
+                </parts>
+                <parts title="part2">
+                    <chapter title="chapter2">
+                        <summary>C++ is a programming language</summary>
+                        <section>
+                           <content> <![CDATA[
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut quibusdam distinctio dignissimos similique. Quasi ducimus soluta ad aspernatur omnis!
+                                </p>
+                             ]]>
+                           </content> 
+                        </setion>
+
+                    </chapter>
+                </parts>
+            
+            </book>
+       
+    </library>
