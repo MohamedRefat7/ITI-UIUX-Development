@@ -3,27 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="./Css/style.css" />
+    <title>Photo Gallery</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <div>
-        <h1>Our Products</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam,
-          cumque!
-        </p>
-      </div>
+    <div class="gallery">
+      <img src="./images/1.jpeg" alt="Photo 1" />
+      <img src="./images/2.jpeg" alt="Photo 2" />
+      <img src="./images/3.jpeg" alt="Photo 3" />
+      <img src="./images/4.jpeg" alt="Photo 4" />
+    </div>
 
-      <div class="img-cont">
-        <img src="./images/1.jpeg" alt="" />
-        <img src="./images/2.jpeg" alt="" />
-        <img src="./images/3.jpeg" alt="" />
-      </div>
-    </section>
+    <div class="lightbox">
+      <button class="prev">Previous</button>
+      <img src="" alt="Lightbox Photo" />
+      <button class="next">Next</button>
+    </div>
 
-    <script src="./Js/code.jquery.com_jquery-3.7.0.js"></script>
-    <script src="./Js/script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

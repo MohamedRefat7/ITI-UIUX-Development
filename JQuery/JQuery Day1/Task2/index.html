@@ -3,31 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabs</title>
-    <link rel="stylesheet" href="./Css/style.css" />
-    <script src="./JS/jquery-3.7.1.js"></script>
+    <title>Navigation and Scroll</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>Tabs</h2>
-
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'Tab1')">London</button>
-      <button class="tablinks" onclick="openCity(event, 'Tab2')">Paris</button>
-      <button class="tablinks" onclick="openCity(event, 'Tab3')">Tokyo</button>
+    <div class="navbar">
+      <div class="logo">Logo</div>
+      <div class="menu">
+        <ul>
+          <li class="item">Home</li>
+          <li class="item">About</li>
+          <li class="item">Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="home">
+      <h1>Home Section</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        modi, beatae quo magnam omnis deserunt libero? Doloribus unde alias,
+        voluptatibus labore asperiores eos obcaecati eligendi accusantium fugit
+        in natus suscipit recusandae explicabo dolorum molestias ea quae
+        nesciunt necessitatibus aliquam est quod voluptate optio expedita neque!
+        Distinctio facilis eligendi esse laudantium.
+      </p>
     </div>
 
-    <div id="Tab1" class="tabcontent">
-      <h3>Content1</h3>
+    <div class="about">
+      <h1>About Section</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        modi, beatae quo magnam omnis deserunt libero? Doloribus unde alias,
+        voluptatibus labore asperiores eos obcaecati eligendi accusantium fugit
+      </p>
     </div>
 
-    <div id="Tab2" class="tabcontent">
-      <h3>Content2</h3>
+    <div class="contact">
+      <h1>Contact Section</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        modi, beatae quo magnam omnis deserunt libero? Doloribus unde alias,
+        voluptatibus labore asperiores eos obcaecati eligendi accusantium fugit
+      </p>
     </div>
+    <div class="scroll-to-top">Top</div>
 
-    <div id="Tab3" class="tabcontent">
-      <h3>Content3</h3>
-    </div>
-
-    <script src="./JS/script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
