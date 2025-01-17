@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <input
+        class="username"
+        type="text"
+        placeholder="username"
+        pattern="[A-Za-z]+"
+        required
+      /><br />
+      <input
+        class="email"
+        type="email"
+        placeholder="userEmail"
+        pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}"
+        required
+      /><br />
+      <input
+        class="password"
+        type="password"
+        placeholder="password"
+        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
+        required
+      /><br />
+      <input class="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
